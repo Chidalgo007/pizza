@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: url(img/menu_background.jpg) no-repeat center/cover
+    rgba(0, 0, 0, 0.4);
+  background-blend-mode: multiply;
+  color: white;
+  font-family: "Arial";
+}
+#small_logo {
+  margin-top: 25px;
+  margin-left: 35px;
+}
+h1 {
+  background-color: #dd7835;
+  width: fit-content;
+  margin: 45px 0px;
+  padding: 8px 22px;
+}
+.menu_list {
+  margin-left: 30px;
+}
+.menu_list_item {
+  margin: 30px 0px;
+}
+.menu_list_title {
+  text-transform: capitalize;
+  font-size: 20px;
+  font-weight: bold;
+  width: 350px;
+  display: inline-block;
+}
+.menu_list_price {
+  color: #dd7835;
+  font-size: 20px;
+  width: 70px;
+  display: inline-block;
+  text-align: right;
+}
+.menu_list_ingredient {
+  font-size: 13px;
+  color: #d8d8d8;
+  margin-top: 5px;
+  width: 320px;
+  display: inline-block;
+}
+.menu_list_vegetarian {
+  display: block;
+  font-size: 8px;
+  background-color: #dd7835;
+  color: black;
+  text-transform: uppercase;
+  width: fit-content;
+  padding: 3px;
+  margin-top: 2px;
+  border-radius: 8px;
+  font-family: "Arial Black";
+}
