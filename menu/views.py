@@ -15,6 +15,6 @@ def index(request):
     return render(request, 'menu/index.html', {'pizzas':pizzas})
 
 def api_get_pizza(request):
-    pizzas = Pizza.objects.all().order_by('price')
+    pizzas = Pizza.objects.all().order_by('name')
     json = serializers.serialize("json",pizzas)
     return HttpResponse(json)
